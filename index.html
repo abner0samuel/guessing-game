@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" id="form">
+        <h1>login</h1>
+
+        <input type="text" name="fullname" id="fullname" class="input" placeholder="fullname">
+        <input type="email" name="email" id="email" class="input"placeholder='email'>
+        <input type="password" name="password"  class="input"id="password" placeholder="password">
+        <fieldset>
+            <legend>select your gender </legend>
+            <select name="" id="gender">
+                <option value="gender">gender</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="transgender">transgender</option>
+
+            </select>
+               
+            
+        </fieldset>
+        
+        <fieldset>
+            <legend>will you like us to save your account for next time</legend>
+            <label><input name="yes-no-maybe" type="radio">yes</label>
+            <label><input name="yes-no-maybe" type="radio">no</label>
+            <label><input name="yes-no-maybe" type="radio">maybe</label>
+        </fieldset>
+        <div class="btn">
+            <button type="reset" id="reset">reset</button>
+
+            <button type="submit"class='btns'>submit</button>
+
+        </div>
+    </form>
+    <span></span>
+    <span></span>
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>

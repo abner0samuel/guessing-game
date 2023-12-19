@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0)repeat-y;
+    justify-content: center;
+    animation: rota 1.5s linear infinite;
+    
+}
+@keyframes rota {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+#form{
+    position: relative;
+    margin-top: 30px;
+    left: 25%;
+    border: black 2px solid;
+    border-radius: 15px;
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+h1{
+    margin-top: 15px;
+    color:#fff;
+}
+.input{
+    border: white 2px solid;
+    font-size: 2rem;
+    width: 70%;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.input:hover{
+    border-bottom: 2px white solid;
+    font-size: 2rem;
+    width: 70%;
+    color: white;
+    margin-top: 15px; ;
+}
+.gender{
+    padding: 50%;
+    background: transparent;
+}
+option{
+    background: transparent;
+}
+fieldset{
+    width: 70%;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+}
+.btn{
+    display: flex;
+    justify-content:space-between;
+}
+.btns{
+    width: 150px;
+    font-size: 2rem;
+    color: white;
+    border-radius: 10px;
+    background: transparent;
+    margin-top: 25% ;
+    padding: 10px 15px;
+
+}
+#reset{
+    width: 150px;
+    height: 60px;
+    font-size: 2rem;
+    color: white;
+    border-radius: 10px;
+    background: transparent;
+    margin-top: 25%;
+    padding: 10px 15px;
+    margin-left: -225px;
+}
+label{
+    padding-top: 50px;
+}
+.main{
+    width: 35%;
+    border-radius: 2px ;
+    border: white solid;
+}
+span{
+    filter: blur(15px);
+}
